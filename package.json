@@ -1,10 +1,11 @@
 {
   "name": "mern-shopping-build",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shopping list built with MERN stack",
   "main": "server.js",
 
   "scripts": {
+    "client-install": "npm install --prefix frontend",
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js", 
     "client": "npm start --prefix frontend", 
@@ -13,7 +14,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client "
   },
   "keywords": [],
-  "author": "",
+  "author": "Karim Salim",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
