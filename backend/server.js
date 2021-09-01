@@ -10,7 +10,7 @@ const app = express();
 
 app.use(express.json());
 
-
+//herouku 
 if(process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, "/frontend/build")));
 
