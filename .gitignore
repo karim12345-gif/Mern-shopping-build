@@ -12,6 +12,7 @@ Procfile
 
 # production
 /build
+/frontend/build
 
 
 # misc
