@@ -14,7 +14,7 @@
 7) Postman to check the api endpoints 
 
 ># Better illustration of the mern stack :
-![Geeting started](mernstack.png) 
+![Geeting started](mernstack.jpeg) 
 
 
 
