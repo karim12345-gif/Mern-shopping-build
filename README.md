@@ -13,6 +13,10 @@
 6) Visual Studio Code or any other IDE you like, i personally love VS code.
 7) Postman to check the api endpoints 
 
+># Better illustration of the mern stack :
+![Geeting started](mernstack.png) 
+
+
 
 ># MongoDB Atlas: ✅ 
 1) First of you have to head to MongoDB Atlas, and create a new project and then build a new cluster. 
