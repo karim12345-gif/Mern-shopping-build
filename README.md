@@ -4,7 +4,7 @@
 *****
 
 
-># Technologies used on this web application: ✅
+># 1.1 Technologies used on this web application: ✅
 1) React.js: A javascript front end library for building user interfaces.
 2) Express.js: A web application framework fro Node.js.
 3) MongoDB: A document-based open source NoSQL database.
@@ -18,20 +18,20 @@
 
 
 
-># MongoDB Atlas: ✅ 
+># 1.2 MongoDB Atlas: ✅ 
 1) First of you have to head to MongoDB Atlas, and create a new project and then build a new cluster. 
 2) After creating the cluster, it's time to choose which cloud provider you prefer and the the zone or region you want your data to be stored in, it's always better to choose a region which is near you. 
 3) Afterwards, click on connect your application, which will connect your cluster.
 4) later in the code, we will need the connection string and the password for the user that was created earlier.
    
 
-># Initial set-up:  🏁
+># 1.3 Initial set-up:  🏁
 1) Check if you have Node.js installed on your system by entering --> `node --version` or `node -v`
 2) `npx create-react-app mern-shopping-build`, this will create a directory containing all the default project template with all the dependencies.
 3) Now cd to your project folder, and enter `npm start`, this will start the project for the front end. 
 
 
-># Back-En :💡
+># 1.4 Back-En :💡
 1) Inside the root folder, mern-shopping-build, create a new folder called backend ---> `mkdir backend` this will create it for you. 
 2) Afterwards, cd to that folder and enter --> `npm init -y` this will create a package.json file inside of the folder backend.
 3) Now we can install some dependencies, --> `npm install express cors mongoose dotenv`, `npm install -g nodemon` , nodemon makes development easier for us, it helps develope node.js applications by automatically restarting the node application when file changes in the directory detected.
@@ -48,7 +48,7 @@
 14) inside the backend directory folder, create a folder called **routes** and file called **productRoutes** this is where we create our routes.
 
 
-># Front-End: ☑
+># 1.5 Front-End: ☑
 1) Now we are going to install dependencies we need, like react, react-dom and react-router-dom., --> `npm i react react-dom react-router-dom` 
 2) Now create a folder called src, and another one called components.Inside a teh components folder we are going to create couple of files , Backdrop.js,CartItem.js, Navbar.js,Product.js and SideDrawer.js, and for each one of them create a css file.
 3) Now Create a redux folder as well, and create four things , 3 folder actions, constants and reducers, create a file called `store.js`
@@ -87,7 +87,7 @@
 ****
 
 
-># User Interface sketch :✍️
+># 1.6 User Interface sketch :✍️
 ![Geeting started](sketch1.png) 
 ![Geeting started](sketch2.png) 
 ![Geeting started](sketch3.png) 
