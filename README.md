@@ -31,7 +31,7 @@
 3) Now cd to your project folder, and enter `npm start`, this will start the project for the front end. 
 
 
-># 1.4 Back-En :💡
+># 1.4 Back-End :💡
 1) Inside the root folder, mern-shopping-build, create a new folder called backend ---> `mkdir backend` this will create it for you. 
 2) Afterwards, cd to that folder and enter --> `npm init -y` this will create a package.json file inside of the folder backend.
 3) Now we can install some dependencies, --> `npm install express cors mongoose dotenv`, `npm install -g nodemon` , nodemon makes development easier for us, it helps develope node.js applications by automatically restarting the node application when file changes in the directory detected.
@@ -48,7 +48,7 @@
 14) inside the backend directory folder, create a folder called **routes** and file called **productRoutes** this is where we create our routes.
 
 
-># 1.5 Front-End: ☑
+># 1.5 Front-End : ☑
 1) Now we are going to install dependencies we need, like react, react-dom and react-router-dom., --> `npm i react react-dom react-router-dom` 
 2) Now create a folder called src, and another one called components.Inside a teh components folder we are going to create couple of files , Backdrop.js,CartItem.js, Navbar.js,Product.js and SideDrawer.js, and for each one of them create a css file.
 3) Now Create a redux folder as well, and create four things , 3 folder actions, constants and reducers, create a file called `store.js`
