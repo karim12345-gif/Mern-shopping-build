@@ -6,7 +6,7 @@
 
 ># 1.1 Technologies used on this web application: ✅
 1) React.js: A javascript front end library for building user interfaces.
-2) Express.js: A web application framework fro Node.js.
+2) Express.js: A web application framework for Node.js.
 3) MongoDB: A document-based open source NoSQL database.
 4) Node.js: Javascript run time environment that executes javascript code outside of a browser , such as a server.
 5) Redux: A state management for React app.
